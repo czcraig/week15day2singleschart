@@ -6,7 +6,7 @@ const SinglesChart = (props) => {
 
   const songsComponents = props.songs.map((song, index) => {
       return (
-        <Song position={index + 1} key={index}  title={song["im:name"]} artist={song["im:artist"]} 
+        <Song position={index + 1} key={index}  title={song["im:name"]} artist={song["im:artist"]} price={song["im:price"]}
         />
       );
     });

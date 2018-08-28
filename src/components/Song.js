@@ -5,7 +5,7 @@ const Song = function (props) {
   if (!props) return null;
   return (
     <div>
-      <h3>{props.position}. Single:{props.title.label}. Artist:{props.artist.label}.</h3>
+      <h3>{props.position}. Single:{props.title.label}. Artist:{props.artist.label}. Price:{props.price.label}.</h3>
     </div>
   );
 }
